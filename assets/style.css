@@ -36,15 +36,20 @@ nav {
 }
 
 .request-button button {
+    
     cursor: pointer;
     background-color: white;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
-    width: 210px;
-    height: 60px;
+    padding: 17px 29px;
     border: 1px white solid;
-    align-items: center;
     font-size: 16px;
+    
+}
+
+.endrits-class {
+    display: flex;
+    align-items: center;
 }
 
 .arrow-svg{
@@ -233,6 +238,12 @@ nav {
         top: 0;
         right: 0;
         bottom: 0;
+    }
+
+    .request-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
   }
